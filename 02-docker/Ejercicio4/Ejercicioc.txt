@@ -1,0 +1,3 @@
+¿Qué comando usarías para listar las redes disponibles en tu sistema?
+docker network ls
+

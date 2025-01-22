@@ -1,0 +1,3 @@
+¿Es posible eliminar todos aquellos volúmenes creados que no se estén ocupando?
+docker volume prune
+

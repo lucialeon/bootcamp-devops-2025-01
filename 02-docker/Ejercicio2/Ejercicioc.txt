@@ -1,0 +1,3 @@
+¿Qué comando listará todas las imágenes disponibles en tu sistema?
+docker images
+

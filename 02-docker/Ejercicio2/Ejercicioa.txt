@@ -1,0 +1,4 @@
+¿Cómo descargamos una imagen oficial de Nginx desde Docker Hub? ¿Como puedo hacer para bajar una imagen de Nginx pero basada en alpine?
+Nginx oficial: docker pull nginx
+Nginx basada en Alpine: docker pull nginx:alpine
+

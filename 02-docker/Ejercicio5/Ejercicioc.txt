@@ -1,0 +1,3 @@
+¿Cómo verificamos los detalles de un volumen creado?
+docker volume inspect mi-volumen
+

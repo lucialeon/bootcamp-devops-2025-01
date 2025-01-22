@@ -1,0 +1,3 @@
+¿Qué comando utilizarías para crear un volumen en docker?
+docker volume create mi-volumen
+

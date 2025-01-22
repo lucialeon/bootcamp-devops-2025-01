@@ -1,0 +1,3 @@
+¿Cómo podrías reutilizar un volumen existente al iniciar un nuevo contenedor?
+docker run -v mi-volumen:/path-en-contenedor imagen
+

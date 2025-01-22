@@ -1,0 +1,4 @@
+¿Cuál es la diferencia entre COPY y ADD?
+COPY: Copia archivos/directorios locales al contenedor.
+ADD: Lo mismo que COPY, pero soporta URLs y descomprime archivos tar.
+

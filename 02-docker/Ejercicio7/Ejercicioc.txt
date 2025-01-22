@@ -1,0 +1,2 @@
+¿Cómo podemos abrir una terminal en modo interactivo a un contenedor activo?
+docker exec -it mi-contenedor /bin/bash

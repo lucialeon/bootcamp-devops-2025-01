@@ -1,0 +1,3 @@
+¿Cómo iniciarías un contenedor basado en una imagen descargada? Incluye la asignación de puertos.
+docker run -d -p 8080:80 nginx
+

@@ -1,0 +1,4 @@
+¿Qué información proporciona el comando "docker info"? Describe al menos tres aspectos clave.
+Versión del servidor y cliente de Docker.
+Número de contenedores (activos, detenidos y en total).
+Información sobre el almacenamiento (controlador de almacenamiento, espacio disponible, etc.).

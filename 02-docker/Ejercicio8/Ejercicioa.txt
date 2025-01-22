@@ -1,0 +1,10 @@
+¿Cómo crearías un contenedor que utilice un usuario no root?
+Primero tendriamos que crear un Dockerfile (nano Dockerfile) y dentro del mismo agregar:
+# Crear un nuevo usuario llamado "usuario"
+RUN useradd -m usuario
+
+# Cambiar al nuevo usuario
+USER usuario
+
+# Acá puedemos añadir más instrucciones, como copiar archivos o instalar paquetes
+

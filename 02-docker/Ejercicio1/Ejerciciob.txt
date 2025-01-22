@@ -1,0 +1,2 @@
+¿Cómo habilitamos el servicio de Docker para que se inicie automáticamente al arrancar el sistema?
+sudo systemctl enable docker

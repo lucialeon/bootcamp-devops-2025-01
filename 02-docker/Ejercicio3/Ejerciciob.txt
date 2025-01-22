@@ -1,0 +1,2 @@
+¿Cómo podrías verificar que la imagen se creó correctamente?
+docker images

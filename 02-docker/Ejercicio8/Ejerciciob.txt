@@ -1,0 +1,2 @@
+¿Qué parámetros usarías para limitar el uso de CPU y memoria de un contenedor?:
+docker run --memory=256m --cpus=0.5 mi-imagen

@@ -1,0 +1,4 @@
+En docker compose, ¿Cuál es la diferencia entre “docker compose down” y “docker compose stop”?
+stop: Detiene servicios pero conserva contenedores y volúmenes.
+down: Detiene y elimina contenedores, redes, volúmenes, etc.
+

@@ -1,0 +1,4 @@
+¿Cual es la diferencia entre “docker stop” y “docker rm”?
+Docker stop: Detiene un contenedor en ejecución.
+Docker rm: Elimina un contenedor. El contenedor debe estar detenido antes de poder eliminarlo. Si intentas eliminar un contenedor en ejecución, recibirás un error
+

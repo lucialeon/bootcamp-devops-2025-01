@@ -1,0 +1,14 @@
+Tengo que copiar unos archivos de mi directorio directo al container para que una app pueda funcionar, pero existen algunos archivos que no quiero que se copien, ¿es posible evitar que se copien estos archivos? En caso afirmativo, ¿cómo se puede hacer? 
+Evitar copiar archivos específicos:
+Utiliza un archivo .dockerignore para excluir archivos/directorios.
+
+Ejemplo de contenido de .dockerignore:
+# Excluir archivos temporales
+*.tmp
+
+# Excluir directorios específicos
+temp/
+logs/
+
+# Excluir un archivo específico
+secreto.txt

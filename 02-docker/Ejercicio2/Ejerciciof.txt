@@ -1,0 +1,8 @@
+¿Cómo podrías detener y eliminar un contenedor en ejecución? ¿Es posible hacer esto en un solo comando?
+Separado:
+docker stop <CONTAINER_ID>
+docker rm <CONTAINER_ID>
+
+En un solo comando:
+docker rm -f <CONTAINER_ID>
+

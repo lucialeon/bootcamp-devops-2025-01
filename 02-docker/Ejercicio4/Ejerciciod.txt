@@ -1,0 +1,3 @@
+¿Cómo podrías comprobar si dos contenedores en la misma red pueden comunicarse entre sí?
+Usa ping o ejecuta un comando entre contenedores
+docker exec -it contenedor1 ping contenedor2

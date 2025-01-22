@@ -1,0 +1,13 @@
+¿Qué estructura básica debería tener un archivo "docker-compose.yml"?
+version: '3'  # Esta es la versión de Docker Compose que estás usando
+services:  # Acá definimos los diferentes contenedores que vamos a usar
+  nombre_servicio:  # Este es el nombre que le das a tu contenedor
+    image: nombre_imagen  # Acá ponemos la imagen que queremos usar (por ejemplo, nginx, mysql, etc.)
+    ports:  # Acá podemos especificar los puertos que queremos exponer
+      - "puerto_host:puerto_contenedor"  # Mapea el puerto del host al puerto del contenedor
+    volumes:  # Acá podemos montar volúmenes para persistir datos
+      - nombre_volumen:/ruta_en_contenedor  # Mapea un volumen
+    environment:  # Acá se pueden definir variables de entorno
+      VARIABLE: valor  # Define tus variables de entorno aquí
+volumes:  # Esta sección es opcional, pero aquí defines los volúmenes que vas a usar
+  nombre_volumen:  # Aquí le das un nombre a tu volumen

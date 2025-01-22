@@ -1,0 +1,3 @@
+¿Qué comando utilizarías para construir una imagen personalizada a partir de un Dockerfile?
+docker build -t mi-imagen 
+docker build -t mi-imagen:v1.0 

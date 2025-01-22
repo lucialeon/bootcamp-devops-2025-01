@@ -1,0 +1,4 @@
+¿Cuál es el significado de que la imagen sea alpine? ¿Cual es la ventaja entre una imagen basada en alpine y una imagen basada en ubuntu?
+Alpine es una distribución minimalista de Linux que está diseñada para ser ligera y segura
+Ventaja: Menor tamaño (pocos MB frente a cientos de MB de Ubuntu), mayor rapidez en descargas y despliegues.
+

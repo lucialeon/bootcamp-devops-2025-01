@@ -1,0 +1,6 @@
+¿Qué comando utilizarías para verificar si Docker está instalado correctamente?
+docker --version
+
+¿Existe alguna forma que provea docker para saber si se pueden levantar los containers de forma correcta?
+docker run hello-world 
+

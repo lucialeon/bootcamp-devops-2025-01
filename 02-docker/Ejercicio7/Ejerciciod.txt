@@ -1,0 +1,3 @@
+¿Cómo verificamos los recursos (CPU/memoria) utilizados por un contenedor?
+docker stats
+

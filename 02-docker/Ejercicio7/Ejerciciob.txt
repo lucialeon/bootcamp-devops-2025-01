@@ -1,0 +1,2 @@
+¿Cómo podrías obtener los logs de un contenedor en ejecución?
+docker logs mi-contenedor

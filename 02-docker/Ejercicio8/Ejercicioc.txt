@@ -1,0 +1,5 @@
+Investiga y menciona al menos dos prácticas recomendadas para mejorar la seguridad en Docker
+1 - Ejecutar como Usuario No Root: Los usuarios root tienen acceso total al sistema, por lo que si algo sale mal afectaria a un nivel más grande. Usar un usuario no root limita los accesso y con eso la seguridad
+2 - Usar imágenes oficiales, actualizadas: Las imágenes oficiales se mantienen actualizadas. Usar imágenes de fuentes no confiables puede poner en riesgo la aplicación (trabajo)
+3 - Limitar los recursos del contenedor:  Limitar la memoria y la CPU del contenedor evita que consuma todos los recursos de tu máquina. Esto nos asegura que otros contenedores puedan seguir funcionando correctamente.
+

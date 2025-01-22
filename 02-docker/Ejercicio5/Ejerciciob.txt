@@ -1,0 +1,3 @@
+¿Cómo podrías usar un volumen para persistir datos en un contenedor de MySQL?
+docker run -d -v mi-volumen:/var/lib/mysql mysql
+

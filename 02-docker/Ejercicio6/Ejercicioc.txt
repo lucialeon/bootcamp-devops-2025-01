@@ -1,0 +1,3 @@
+¿Cómo verificamos el estado de los servicios levantados con Docker Compose?
+docker compose ps
+

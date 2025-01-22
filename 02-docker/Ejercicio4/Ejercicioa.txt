@@ -1,0 +1,3 @@
+¿Cómo crearías una red personalizada en Docker??
+docker network create mi-red
+

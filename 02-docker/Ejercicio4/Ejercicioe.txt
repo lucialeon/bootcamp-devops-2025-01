@@ -1,0 +1,7 @@
+¿Qué mecanismo propone docker para simplificar la conexión entre contenedores sin la necesidad de ocupar las IP de los contenedores?
+Docker usa nombres de contenedores como DNS dentro de la red. Cuando los contenedores están en la misma red, Docker proporciona un servicio de DNS que permite a los contenedores resolver los nombres de otros contenedores automáticamente
+
+Ejemplo de uso: Iniciar dos contenedores en la misma red
+docker run -d --name contenedor1 --network mi-red nginx
+docker run -d --name contenedor2 --network mi-red nginx
+

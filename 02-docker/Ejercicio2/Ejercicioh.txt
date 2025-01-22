@@ -1,0 +1,3 @@
+¿Como puedo hacer para eliminar aquellas imágenes que no estoy ocupando?
+docker image prune
+

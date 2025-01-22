@@ -1,0 +1,3 @@
+¿Qué comando te permite inspeccionar los detalles de configuración de un contenedor?
+docker inspect mi-contenedor
+

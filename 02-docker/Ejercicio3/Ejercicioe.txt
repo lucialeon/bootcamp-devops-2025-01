@@ -1,0 +1,5 @@
+¿Cual es la diferencia entre CMD, ENTRYPOINT y RUN?
+CMD: Define comandos por defecto ejecutados al iniciar el contenedor.
+ENTRYPOINT: Similar a CMD, pero no puede ser sobrescrito fácilmente.
+RUN: Ejecuta comandos al construir la imagen.
+

@@ -1,0 +1,3 @@
+¿Cómo podrías detener y eliminar todos los servicios definidos en Docker Compose?
+docker compose down
+
